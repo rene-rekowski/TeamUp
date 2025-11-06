@@ -28,7 +28,7 @@ public class Project {
         this.tasks = tasks;
     }
 
-    // Getter und Setter
+    // Getter and Setter
     public Long getId() {
         return id;
     }

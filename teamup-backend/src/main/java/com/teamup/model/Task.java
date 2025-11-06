@@ -20,5 +20,30 @@ public class Task {
 
     @ManyToOne
     private Project project;
+    
+    //Getter and Setter
+    public void setTitle(String title) {
+    	this.title = title;
+    }
+    
+    public String getTitle() {
+    	return this.title;
+    }
+    
+    public void setDescription(String description) {
+    	this.description = description;
+    }
+    
+    public String getDescription() {
+    	return this.description;
+    }
+    
+    public void setDone(boolean done) {
+    	this.done = done;
+    }
+    
+    public boolean getDone() {
+    	return this.done;
+    }
 
 }
