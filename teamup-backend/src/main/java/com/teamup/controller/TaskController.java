@@ -20,7 +20,6 @@ public class TaskController {
     public List<Task> getAllTask() {
         return taskRepository.findAll();
     }
-   
 
     @GetMapping("/{id}")
     public Task getTask(@PathVariable Long id) {
